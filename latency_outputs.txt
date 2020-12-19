@@ -1,0 +1,53 @@
+./output --resize 300 --centercrop 200
+Latency: 1824 microseconds/image (1.824 milliseconds/image)
+Latency: 78 microseconds/image (0.078 milliseconds/image)
+Total Execution Time of Naive Solution: 1.963 milliseconds
+Latency: 25 microseconds/image (0.025 milliseconds/image)
+Latency: 110 microseconds/image (0.11 milliseconds/image)
+Total Execution Time of Optimized Solution: 70.901 milliseconds
+
+./output --resize 3234 34             
+Latency: 1681 microseconds/image (1.681 milliseconds/image)
+Total Execution Time of Naive Solution: 1.728 milliseconds
+Latency: 7 microseconds/image (0.007 milliseconds/image)
+Total Execution Time of Optimized Solution: 0.023 milliseconds
+
+
+./output  --resize 2340 429 --centercrop 342 42
+Latency: 3013 microseconds/image (3.013 milliseconds/image)
+Latency: 38 microseconds/image (0.038 milliseconds/image)
+Total Execution Time of Naive Solution: 3.102 milliseconds
+Latency: 4 microseconds/image (0.004 milliseconds/image)
+Latency: 28 microseconds/image (0.028 milliseconds/image)
+Total Execution Time of Optimized Solution: 0.041 milliseconds
+
+
+./output --resize 400 200 --centercrop 100 --tensor --normalize
+Latency: 470 microseconds/image (0.47 milliseconds/image)
+Latency: 25 microseconds/image (0.025 milliseconds/image)
+Latency: 4413 microseconds/image (4.413 milliseconds/image)
+Latency: 32 microseconds/image (0.032 milliseconds/image)
+Total Execution Time of Naive Solution: 4.992 milliseconds
+Latency: 3 microseconds/image (0.003 milliseconds/image)
+Latency: 17 microseconds/image (0.017 milliseconds/image)
+Latency: 4274 microseconds/image (4.274 milliseconds/image)
+Latency: 31 microseconds/image (0.031 milliseconds/image)
+Total Execution Time of Optimized Solution: 4.351 milliseconds
+
+./output --centercrop 100 --tensor --normalize 
+Latency: 74 microseconds/image (0.074 milliseconds/image)
+Latency: 4154 microseconds/image (4.154 milliseconds/image)
+Latency: 40 microseconds/image (0.04 milliseconds/image)
+Total Execution Time of Naive Solution: 4.317 milliseconds
+Latency: 4 microseconds/image (0.004 milliseconds/image)
+Latency: 4070 microseconds/image (4.07 milliseconds/image)
+Latency: 8 microseconds/image (0.008 milliseconds/image)
+Total Execution Time of Optimized Solution: 4.095 milliseconds
+
+./output --tensor --normalize 
+Latency: 129138 microseconds/image (129.138 milliseconds/image)
+Latency: 741 microseconds/image (0.741 milliseconds/image)
+Total Execution Time of Naive Solution: 129.934 milliseconds
+Latency: 117297 microseconds/image (117.297 milliseconds/image)
+Latency: 337 microseconds/image (0.337 milliseconds/image)
+Total Execution Time of Optimized Solution: 117.658 milliseconds
