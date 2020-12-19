@@ -26,7 +26,7 @@ using namespace cv;
 
 /* CLASS: Timer
  * Descprition: Used for keeping track of runtimes and calculating latency
- */
+ */ 
 class Timer {
 public:
     Timer()
